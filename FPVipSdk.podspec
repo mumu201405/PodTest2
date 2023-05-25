@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'FPVipSdk'
-  spec.version      = '0.0.6'
+  spec.version      = '0.0.7'
   spec.summary      = 'This is my first private library.'
   spec.license      = "MIT" 
   spec.author       = { "gonglin.jia" => "gonglin.jia@kingsgroupgames.com" }
