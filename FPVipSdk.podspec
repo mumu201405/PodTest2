@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'FPVipModule'
+  spec.name         = 'FPVipSdk'
   spec.version      = '0.0.6'
   spec.summary      = 'This is my first private library.'
   spec.license      = "MIT" 
