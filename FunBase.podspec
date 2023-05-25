@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'FunBase'
-  spec.version      = '0.0.10'
+  spec.version      = '0.1.0'
   spec.description      = <<-DESC
   Swift version of WeChat SDK.11111111121212121212
                        DESC
@@ -15,10 +15,13 @@ Pod::Spec.new do |spec|
   # spec.vendored_libraries = 'FunBase/lib/libFunBase.a'
   # spec.vendored_frameworks = 'FunBase/lib/fpVipSdk.framework'
 
-  spec.source_files = 'FunBase/*.swift', 'FunBase/lib/*.h'
-  spec.vendored_libraries = 'FunBase/lib/libWeChatSDK.a'
+  spec.source_files = 'FunBase/fpx/*.h'
+  spec.vendored_libraries = 'FunBase/fpx/FunBase.a'
 
-  spec.library = 'c++'
-  spec.frameworks = 'WebKit'
 
+  spec.pod_target_xcconfig = {
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
 end
