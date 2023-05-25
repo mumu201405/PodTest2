@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'FunBase'
-  spec.version      = '0.1.1'
+  spec.version      = '0.1.2'
   spec.description      = <<-DESC
   Swift version of WeChat SDK.11111111121212121212
                        DESC
@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   # spec.vendored_libraries = 'FunBase/lib/libFunBase.a'
   # spec.vendored_frameworks = 'FunBase/lib/fpVipSdk.framework'
 
-  spec.source_files = 'FunBase/fpx/*.h'
-  spec.vendored_libraries = 'FunBase/fpx/libFunBase.a'
+  spec.source_files = 'FunBase/fpx/**/*.h', 'FunBase/test/*.h'
+  spec.vendored_libraries = 'FunBase/fpx/**/*.a', 'FunBase/test/*.a'
 
 
   spec.pod_target_xcconfig = {
