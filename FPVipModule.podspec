@@ -7,9 +7,8 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/CrimsonVampire"
   spec.platform     = :ios, '9.0'
   spec.ios.deployment_target = '9.0'
-  spec.source       = { :git => 'https://gitlab-ee.funplus.io/fp-sdk/fp-vip-chat.git', :tag => spec.version.to_s }
-  spec.public_header_files = "fpVipSdk/**/*.h"
-  spec.vendored_frameworks = 'SDKs/fpVipSdk.framework'
+  spec.source       = { :git => 'https://github.com/mumu201405/PodTest2.git', :tag => spec.version.to_s }
+  spec.vendored_frameworks = 'fpxsdks/vipsdk/fpVipSdk.framework'
 
 end
 
