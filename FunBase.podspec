@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'FunBase'
-  spec.version      = '0.1.5'
+  spec.version      = '0.1.6'
   spec.description      = <<-DESC
   OC version of FunBase SDK
                        DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/mumu201405/PodTest2.git', :tag => spec.version.to_s }
 
   # spec.source_files = 'FunBase/fpx/**/*.h', 'FunBase/test/*.h'
-  # spec.public_header_files = 'FunBase/fpx/**/*.h', 'FunBase/test/*.h'
+  spec.public_header_files = 'FunBase/**/*.h'
   spec.vendored_libraries = 'FunBase/*.a'
   spec.vendored_frameworks = 'FunBase/*.framework'
 
