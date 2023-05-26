@@ -12,8 +12,8 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '10.0'
   spec.source       = { :git => 'https://github.com/mumu201405/PodTest2.git', :tag => spec.version.to_s }
 
-  # spec.source_files = 'FunBase/fpx/**/*.h', 'FunBase/test/*.h'
-  spec.public_header_files = 'FunBase/Headers/*.h'
+  spec.source_files = 'FunBase/Headers/*.h'
+  # spec.public_header_files = 'FunBase/Headers/*.h'
   spec.vendored_libraries = 'FunBase/*.a'
   spec.vendored_frameworks = 'FunBase/*.framework'
 
