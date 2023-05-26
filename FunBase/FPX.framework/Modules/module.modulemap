@@ -1,0 +1,6 @@
+framework module FPX {
+  umbrella header "FPX.h"
+
+  export *
+  module * { export * }
+}
