@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'FunBase'
-  spec.version      = '0.1.7'
+  spec.version      = '0.1.8'
   spec.description      = <<-DESC
   OC version of FunBase SDK
                        DESC
@@ -8,8 +8,8 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT" 
   spec.author       = { "gonglin.jia" => "gonglin.jia@kingsgroupgames.com" }
   spec.homepage     = "https://github.com/xxx"
-  spec.platform     = :ios, '10.0'
-  spec.ios.deployment_target = '10.0'
+  spec.platform     = :ios, '11.0'
+  spec.ios.deployment_target = '11.0'
   spec.source       = { :git => 'https://github.com/mumu201405/PodTest2.git', :tag => spec.version.to_s }
 
   spec.source_files = 'FunBase/Headers/*.h'
