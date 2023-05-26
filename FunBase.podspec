@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'FunBase'
-  spec.version      = '0.1.4'
+  spec.version      = '0.1.5'
   spec.description      = <<-DESC
   OC version of FunBase SDK
                        DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   # spec.source_files = 'FunBase/fpx/**/*.h', 'FunBase/test/*.h'
   # spec.public_header_files = 'FunBase/fpx/**/*.h', 'FunBase/test/*.h'
   spec.vendored_libraries = 'FunBase/*.a'
-  # spec.vendored_frameworks = 'FunBase/*.framework'
+  spec.vendored_frameworks = 'FunBase/*.framework'
 
   spec.pod_target_xcconfig = {
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
