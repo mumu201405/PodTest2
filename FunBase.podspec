@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   # spec.source_files = 'FunBase/fpx/**/*.h', 'FunBase/test/*.h'
   # spec.public_header_files = 'FunBase/fpx/**/*.h', 'FunBase/test/*.h'
   spec.vendored_libraries = 'FunBase/*.a'
-  spec.vendored_frameworks = 'FunBase/*.framework'
+  # spec.vendored_frameworks = 'FunBase/*.framework'
 
   spec.pod_target_xcconfig = {
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
