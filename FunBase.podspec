@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'FunBase'
-  spec.version      = '0.1.3'
+  spec.version      = '0.1.4'
   spec.description      = <<-DESC
   OC version of FunBase SDK
                        DESC
